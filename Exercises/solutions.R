@@ -75,8 +75,8 @@
     scale_x_discrete(limits=c("White","Black",
                               "Other"))
   plot
-  
-  
+
+    
 # Exercise 5
   
   # Function
@@ -101,3 +101,45 @@
   mad(test2)
   mad(test3)
   mad(test3,na.rm=T)
+  
+  
+# Exercise 6
+  
+  # Load library
+  library(HMDHFDplus)
+  
+  # Needed for HMDHFDplus
+  #pw <- "password" # Put your HMD password here
+  #us <- "username" # Put your HMD username here
+  
+  # Load Swedish data
+  e0swe <- readHMDweb(CNTRY="SWE",item="E0per",
+                      username=us,password=pw)
+  
+  # Plot using ggplot
+  ggplot(data=e0swe)+
+    geom_line(aes(x=Year,y=Women,color="red"))+
+    geom_line(aes(x=Year,y=Men,color="blue"))+
+    labs(x="Year",y="e0",
+         title="Life expectancy in Sweden",
+         caption="Source: HMD")+
+    scale_color_manual(labels=c("Men", "Women"), 
+                       values = c("blue", "red"),
+                       name="Gender")
+  
+  # Calculate gender gap
+  e0swe <- e0swe %>% mutate(gendergap=Female-Male)
+  
+  # Plot using base R
+  plot(e0swe$Year,e0swe$gendergap,type="l",
+       xlab="Year",ylab="Female e0-male e0",
+       panel.first=grid(),col="red",
+       main="Gender gap in life expectancy in Sweden",
+       ylim=c(-1,7))
+  abline(h=0)
+  # I include the range from -1 to 7 for the y-axis in the plot
+  # as this allows to include a reference line at zero.
+  # For values below that line males are doing better and
+  # values above the reference line mean that women are doing better.
+  # This makes reading the figure a bit easier: You can immediately see
+  # that women in Sweden have always been doing better than men

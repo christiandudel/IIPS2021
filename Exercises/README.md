@@ -38,5 +38,7 @@ Write a function which calculates the average absolute deviation from the mean [
 
 [1] https://en.wikipedia.org/wiki/Average_absolute_deviation#Mean_absolute_deviation_around_a_central_point
 
+### Exercise 6
 
+Register  with  the  Human  Mortality  Database  (https://www.mortality.org/) if you do not have an account yet.  Download the data on life expectancy by gender for a country of your choice. You can load the data using the read.csv-command (or similar), and you will likely need to use several of the arguments of the function you use. Alternatively, you can also try the functions of the HMDHFDplus package. Visualize  the  trend  in  life  expectancy  at  birth  in  the  data  you  chose, and visualize how the gender gap in life expectancy at birth has developed over time. For this exercise we define the gender gap for a given year as the life expectancy of women minus the life expectancy of men.
   
