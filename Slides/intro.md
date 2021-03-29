@@ -27,12 +27,11 @@ Materials will be available from GitHub, also mirrored on OSF:
 - https://github.com/christiandudel/IIPS2021
 - https://osf.io/dnm8y/ 
 
-# What will be covered in this part of the course?
+# What will be covered in this course?
   
 - Software: R and RStudio
-- Mostly basic things in these programs
-- Second part of course taught by Sebastian Klüsener will 
-
+- First part of the course (CD) will introduce basics
+- Second part (SK) will teach spatial analysis
 
 # Prerequisites
     
@@ -46,13 +45,10 @@ Materials will be available from GitHub, also mirrored on OSF:
 - Twitter: @c_dudel
 - Website: christiandudel.com
 
-
 # Exercises
 
-- For each session, there will be some voluntary exercises to solve
-- If you have any questions regarding the exercises you can post them on Slack
-- Solutions will be available online (GitHub/OSF)
-- These voluntary exercises have to be distinguished from the (mandatory!) assignment
+- There will be some (voluntary!) exercises to solve available on GitHub/OSF
+- Solutions will be available online 
 
 # What is R?
 
