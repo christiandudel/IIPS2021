@@ -2,16 +2,16 @@
 
 Below you find some (voluntary) exercises which you can solve. Solutions for the exercises can also be found in this folder. Install R and R Studio if you haven't done so already:
 
-    * R https://cloud.r-project.org/
-    * RStudio https://rstudio.com/products/rstudio/ 
+* R https://cloud.r-project.org/
+* RStudio https://rstudio.com/products/rstudio/ 
     
 ### Exercise 1
 Create an R script using R Studio which runs the following calculations:
 
-    * 1234+1234
-    * 151/7
-    * 13^4 - 12^3 + 5
-    * 20/0
+* 1234+1234
+* 151/7
+* 13^4 - 12^3 + 5
+* 20/0
 
 ### Exercise 2
 Create an R script using R Studio which, first, creates an object 'x' which contains the result of <img src="https://render.githubusercontent.com/render/math?math=\sqrt{2}">. Create a second object 'y' which is equal to x^2. Finally, check whether y is equal to 2 using the == operator. Comment on the result (in the script file) - did you expect it?
