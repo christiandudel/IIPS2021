@@ -10,6 +10,19 @@ output: beamer_presentation
 - Sebastian Klüsener (Federal Institute for Population Research, Wiesbaden)
 - Christian Dudel (Max Planck Institute for Demographic Research, Rostock)
 
+# Contact (SK)
+
+- Email: sebastian.kluesener@bib.bund.de
+- Twitter: @demomapper
+- Website: https://www.bib.bund.de/DE/Institut/Mitarbeiter/Kluesener/Kluesener.html
+
+# Contact (CD)
+
+- Email: dudel@demogr.mpg.de
+- Twitter: @c_dudel
+- Website: christiandudel.com
+
+
 # Zoom
 
 - Please use your preferred name consistently
@@ -38,12 +51,6 @@ Materials will be available from GitHub, also mirrored on OSF:
 - Basic demographic knowledge (e.g., you know what a 'rate' is)
 - Basic statistical knowledge (e.g., you know what a 'mean' is)
 - First experince using statistical software (Stata, Excel, SAS, SPSS, R, ...)
-
-# Contact
-
-- Email: dudel@demogr.mpg.de
-- Twitter: @c_dudel
-- Website: christiandudel.com
 
 # Exercises
 
