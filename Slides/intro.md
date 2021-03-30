@@ -28,10 +28,9 @@ output: beamer_presentation
 - Please use your preferred name consistently
 - Please mute your microphone when not speaking
 - Feel free to turn off video 
-- Feel free to interrupt me any time (unmute first)...
-- ...for instance, if you cannot hear me well...
+- Feel free to interrupt any time (unmute first)...
 - ...but be aware that there might be some delay
-- I might miss things you write in the Zoom chat!
+- The Zoom chat is easy to miss when teaching!
 
 # Materials
 
