@@ -22,7 +22,6 @@ output: beamer_presentation
 - Twitter: @c_dudel
 - Website: christiandudel.com
 
-
 # Zoom
 
 - Please use your preferred name consistently
