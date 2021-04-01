@@ -1,7 +1,5 @@
 # Introduction to R (International Institute for Population Sciences 2021)
 
-Sebastian Klüsener (sebastian.kluesener@bib.bund.de)
-
 Christian Dudel (dudel@demogr.mpg.de)
 
 ## Software
