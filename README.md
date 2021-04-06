@@ -27,6 +27,7 @@ Websites:
 
 * https://stackexchange.com/
 * https://www.r-bloggers.com/ 
+* https://colorbrewer2.org
 
 Journals:
 
