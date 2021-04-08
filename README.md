@@ -29,6 +29,5 @@ Websites:
 
 Journals:
 
-* Journal of Statistical Software https://www.jstatsoft.org/index 
-* R Journal https://journal.r-project.org/ 
-
+* Journal of Statistical Software https://www.jstatsoft.org/index * R Journal https://journal.r-project.org/ 
+* Journal of Open Source Software https://joss.theoj.org/ 
